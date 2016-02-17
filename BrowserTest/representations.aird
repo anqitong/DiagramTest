@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:browser="http://www.xtext.org/example/browser/Browser" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_oF_8kNVgEeWdTMBPL3nlAQ" selectedViews="_AaCvQNVhEeWdTMBPL3nlAQ" version="10.0.0.201505222000">
+  <semanticResources>scripts/collections.brs</semanticResources>
+  <semanticResources>scripts/dowhile.brs</semanticResources>
+  <semanticResources>scripts/ifelse.brs</semanticResources>
+  <semanticResources>scripts/memorise.brs</semanticResources>
+  <semanticResources>scripts/procedures.brs</semanticResources>
+  <semanticResources>scripts/testMainScript.brs</semanticResources>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_AaCvQNVhEeWdTMBPL3nlAQ">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_dMsT4NVkEeWdTMBPL3nlAQ" name="Collection">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_dMsT4dVkEeWdTMBPL3nlAQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_dMsT4tVkEeWdTMBPL3nlAQ"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_dMs68NVkEeWdTMBPL3nlAQ" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_dMs68dVkEeWdTMBPL3nlAQ" type="Sirius" element="_dMsT4NVkEeWdTMBPL3nlAQ" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_dMs689VkEeWdTMBPL3nlAQ" type="2001" element="_dMsT49VkEeWdTMBPL3nlAQ">
+            <children xmi:type="notation:Node" xmi:id="_dMtiANVkEeWdTMBPL3nlAQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_dMtiAdVkEeWdTMBPL3nlAQ" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_dMuJENVkEeWdTMBPL3nlAQ" type="3005" element="_dMsT5NVkEeWdTMBPL3nlAQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_dMuJEdVkEeWdTMBPL3nlAQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dMuJEtVkEeWdTMBPL3nlAQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dMs69NVkEeWdTMBPL3nlAQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dMs69dVkEeWdTMBPL3nlAQ" width="30" height="30"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_dMs68tVkEeWdTMBPL3nlAQ"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dMsT49VkEeWdTMBPL3nlAQ" name="onglet" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="browser:Onglet" href="scripts/collections.brs#//@onglets.0"/>
+        <semanticElements xmi:type="browser:Onglet" href="scripts/collections.brs#//@onglets.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_dMsT5NVkEeWdTMBPL3nlAQ" showIcon="false" workspacePath="/BrowserTest/img/onglet.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/browser/description/browser.odesign#//@ownedViewpoints[name='browser']/@ownedRepresentations[name='webBrowser']/@defaultLayer/@nodeMappings[name='OngletNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/browser/description/browser.odesign#//@ownedViewpoints[name='browser']/@ownedRepresentations[name='webBrowser']/@defaultLayer/@nodeMappings[name='OngletNode']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/browser/description/browser.odesign#//@ownedViewpoints[name='browser']/@ownedRepresentations[name='webBrowser']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_dMsT5dVkEeWdTMBPL3nlAQ"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/browser/description/browser.odesign#//@ownedViewpoints[name='browser']/@ownedRepresentations[name='webBrowser']/@defaultLayer"/>
+      <target xmi:type="browser:WebBrowser" href="scripts/collections.brs#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/browser/description/browser.odesign#//@ownedViewpoints[name='browser']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>
